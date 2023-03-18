@@ -1,7 +1,6 @@
 def find_max (numbers):
-    list = numbers
-    largest_number = list[0]
-    for i in list:
+    largest_number = numbers[0]
+    for i in numbers:
         if i > largest_number:
             largest_number = i
     return largest_number
