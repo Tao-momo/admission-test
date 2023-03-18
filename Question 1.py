@@ -2,7 +2,7 @@ def find_max (numbers):
     list = numbers
     largest_number = list[0]
     for i in list:
-      if i > largest_number:
+        if i > largest_number:
             largest_number = i
     return largest_number
 
@@ -10,17 +10,13 @@ def find_max (numbers):
 print(find_max([1, 2, 4, 5])); # should print 5
 print(find_max([5, 2, 7, 1, 6]) ); # should print 7
 
-
+print ("======我是分隔線======")
 
 def find_position(numbers,target):
-  target_index = []
-  for i in range(len(numbers)):
-    if numbers[i] == target:
-      target_index.append(i)  
-  if target_index == []:
+    for i in range(len(numbers)):
+        if numbers[i] == target:
+            return i
     return -1
-  else:
-    return target_index
 
 
 print(find_position([5, 2, 7, 1, 6], 5)) # should print 0
