@@ -1,0 +1,9 @@
+Q3-1: Git 是什麼
+Git 是一種版本控制系統，被廣泛用於軟體開發。可以多人協作一個專案 repo，及分支管理，讓開發中和實驗的 code 可以分開來處理，開發人員在上面相互 reveiw　code， Git 可以記錄每個程式碼改動的歷程，如有需回改動前狀態，可透過 commit id rollback。
+
+Q3-2: list | tuple | dictionary | set 有什麼不同
+
+- list 和 dictionary 的元素是可變、新增、修改和刪除的，而set 和 tueple 是不可變動的
+- list 是用 []  表示, set 是用 {} 表示 ，tuple 是用 () 表示。 dictionary 是用 {} 表示 ，且組成一定為一個 key 和 value，其他三個沒有。
+- 以儲存的位置來說 list 和 tuple 是有順序的有依的，而 dictionary 和 set 則沒有。
+- set 裡的元素是不會出現重複的，反之另外三種是可重複元素的。
